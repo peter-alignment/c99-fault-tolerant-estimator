@@ -33,3 +33,21 @@ Metric                    Unprotected Diff    This Architecture
 Max Transient Spike       +18.2 rad/s         +1.08 rad/s (Bounded)
 FSM Limit-Cycle Chattering Observed           Eliminated via Hysteresis
 Matrix Inversion Failure  Occasional          Mathematically Impossible
+
+---
+
+## Citation
+
+If you use this algorithm, implementation, or technical framework in your research or engineering projects, please cite it as:
+
+```bibtex
+@article{ye2026deterministic,
+  title={A Deterministic, Zero-Heap C99 State Estimator with Bounded Momentum Reacquisition for Hard Real-Time Embedded Systems},
+  author={Ye, Qiang},
+  journal={Zenodo Preprint},
+  year={2026},
+  doi={10.5281/zenodo.23631889},
+  url={https://doi.org/10.5281/zenodo.23631889}
+}
+```
+Qiang Ye. (2026). A Deterministic, Zero-Heap C99 State Estimator with Bounded Momentum Reacquisition for Hard Real-Time Embedded Systems. Zenodo. DOI: 10.5281/zenodo.23631889.
