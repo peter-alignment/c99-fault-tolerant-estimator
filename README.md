@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23631889.svg)](https://doi.org/10.5281/zenodo.23631889)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23901876.svg)](https://doi.org/10.5281/zenodo.23901876)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Standard](https://img.shields.io/badge/C99-MISRA--Compliant-brightgreen.svg)](#)
 [![Memory](https://img.shields.io/badge/RAM-Zero--Heap%20(%3C128B%20Stack)-orange.svg)](#)
