@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this 17-paper theory matrix, please cite it as below."
+type: dataset
+authors:
+  - family-names: "Ye"
+    given-names: "Peter"
+title: "Physical Intelligence: The 17-Paper Comprehensive Research Matrix"
+version: 1.0.0
+date-released: 2026-11-04
+url: "https://zenodo.org/"
+abstract: "A comprehensive 17-paper research matrix encompassing the YQ-HAET framework, thermodynamic boundaries, computational trilemmas, and C99 state estimator architecture for embodied AI."
+keywords:
+  - "Physical Intelligence"
+  - "YQ-HAET"
+  - "C99 State Estimator"
+  - "Embodied AI"
+  - "Theory Matrix"
