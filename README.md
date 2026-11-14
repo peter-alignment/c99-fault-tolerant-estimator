@@ -2,11 +2,8 @@
 > **DOI Anchor**: [10.5281/zenodo.24210684](https://doi.org/10.5281/zenodo.24210684)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24210684.svg)](https://doi.org/10.5281/zenodo.24210684)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24210684.svg)](https://doi.org/10.5281/zenodo.24210684)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Standard](https://img.shields.io/badge/C99-MISRA--Compliant-brightgreen.svg)](#)
-[![Memory](https://img.shields.io/badge/RAM-Zero--Heap%20(%3C128B%20Stack)-orange.svg)](#)
-
+[![C99](https://img.shields.io/badge/C99-MISRA--Compliant-brightgreen.svg)](#)
+[![RAM](https://img.shields.io/badge/RAM-Zero--Heap%20(%3C128B%20Stack)-orange.svg)](#)
 A deterministic, zero-heap causal state estimation operator engineered in standard C99 for resource-constrained, safety-critical microcontrollers (ARM Cortex-M0/M3/M4, bare-metal RISC-V). 
 
 This project addresses the critical vulnerability of classical Kalman filters and moving-average algorithms under non-Gaussian impulse corruption and sensor lockups, eliminating floating-point matrix explosion while maintaining deterministic execution time.
