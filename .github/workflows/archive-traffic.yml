@@ -5,6 +5,7 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+# 显式声明仓库读写权限，解决 exit code 128 推送被拒问题
 permissions:
   contents: write
 
@@ -33,5 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add data/
           git diff --staged --quiet || (git commit -m "chore: auto-archive daily GitHub traffic stats" && git push)
