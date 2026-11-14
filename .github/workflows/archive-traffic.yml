@@ -25,7 +25,8 @@ jobs:
 
       - name: Run traffic archiver
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 关键点：这里必须使用我们刚才存入 Secrets 的 CUSTOM_PAT！
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_PAT }}
           REPOSITORY: ${{ github.repository }}
         run: python scripts/archive_traffic.py
 
@@ -34,7 +35,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 检查 data 目录是否存在，存在则提交推送
           if [ -d "data" ]; then
             git add data/
             git diff --staged --quiet || (git commit -m "chore: auto-archive daily GitHub traffic stats" && git push origin HEAD:main)
