@@ -61,4 +61,3 @@ if __name__ == "__main__":
     views_data = fetch_traffic_data("views")
     if views_data and "views" in views_data:
         update_history("data/views_history.json", views_data["views"])
-      Add archive_traffic.py script
